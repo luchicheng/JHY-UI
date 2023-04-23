@@ -15,7 +15,7 @@
                 <span class="text-caption"></span> <br />
                 <span class="text-caption">905-597-1666</span> <br />
                 <v-btn icon="fas fa-envelope" color="" class="mt-10" variant="outlined"></v-btn><br />
-                <span class="text-caption">info@jhykitchen.com</span> <br />
+                <span class="text-caption">info@jhykitchen.ca</span> <br />
                 <span class="text-caption"></span> <br />
               </div>
             </v-col>
