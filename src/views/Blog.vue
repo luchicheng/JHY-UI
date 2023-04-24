@@ -2,9 +2,9 @@
   <v-app>
     <HomeNavbar />
     <div class="about">
-      <v-container fluid>
+      <v-container fluid max-width="60%">
         
-      <v-col cols="12" id="page">
+      <v-col cols="12" id="page"  >
         <div class="pre">
           <v-row>
             <v-col cols="12" sm="4">

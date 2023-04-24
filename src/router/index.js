@@ -4,7 +4,7 @@ import PortalHome from '../views/PortalHome.vue'
 
 import About from '../views/About.vue'
 import Services from '../views/Services.vue'
-import Blog from '../views/Blog.vue'
+import Blog from '@/components/Blog/Index'
 import Contact from '../views/Contact.vue'
 import ShoppingHome from '../views/ShoppingHome.vue'
 import ProductDetail from '@/components/ProductDetail/Index'

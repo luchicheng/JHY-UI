@@ -7,7 +7,7 @@
     <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/services">Services</v-btn>
     <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/blog">Blog</v-btn>
     <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/contact">Contact</v-btn>
-    <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/shopping">SHOP NOW</v-btn>
+    <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/shopping" v-if="false">SHOP NOW</v-btn>
     <div class="mr-1 hidden-md-and-up">
       <v-menu open-on-hover bottom offset-y >
       <template v-slot:activator="{ on, attrs }">

@@ -380,7 +380,8 @@ export default {
       console.log(o)
     }
 
-    this.$imageViewer.images(this.galleryImgs);
+    this.$imageViewer.images(this.galleryImgs)
+    this.$imageViewer.imgStyle = {width:1200,height:900}
   },
   components: {
     HomeNavbar,
