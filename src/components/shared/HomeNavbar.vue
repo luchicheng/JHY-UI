@@ -2,12 +2,12 @@
   <v-app-bar app color="#2e3c52" dark flat class="px-1" style="z-index: 9999" height="50px">
     <v-img contain height="50px" width="250px" :src="require('@/assets/flat_transparent_logo.png')"></v-img>
     <v-spacer></v-spacer>
-    <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/">Home</v-btn>
-    <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/about">About</v-btn>
-    <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/services">Services</v-btn>
-    <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/blog">Blog</v-btn>
-    <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/contact">Contact</v-btn>
-    <v-btn text color="#d0e3ff" class="hidden-sm-and-down" to="/shopping" v-if="false">SHOP NOW</v-btn>
+    <v-btn text class="hidden-sm-and-down" to="/">Home</v-btn>
+    <v-btn text class="hidden-sm-and-down" to="/about">About</v-btn>
+    <v-btn text class="hidden-sm-and-down" to="/services">Services</v-btn>
+    <v-btn text class="hidden-sm-and-down" to="/blog">Blog</v-btn>
+    <v-btn text class="hidden-sm-and-down" to="/contact">Contact</v-btn>
+    <v-btn text class="hidden-sm-and-down" to="/shopping" v-if="false">SHOP NOW</v-btn>
     <div class="mr-1 hidden-md-and-up">
       <v-menu open-on-hover bottom offset-y >
       <template v-slot:activator="{ on, attrs }">
@@ -32,7 +32,7 @@ export default {
   data: () => ({
     items: [
       {
-        title: 'HOME',
+        title: 'Home',
         name: 'PortalHome'
       },
       {
@@ -50,11 +50,12 @@ export default {
       {
         title: 'Contact',
         name: 'Contact'
-      },
-      {
-        title: 'SHOP NOW',
-        name: 'Category'
       }
+      // ,
+      // {
+      //   title: 'SHOP NOW',
+      //   name: 'Category'
+      // }
     ]
   }),
   computed: {

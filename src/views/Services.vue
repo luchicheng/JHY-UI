@@ -7,23 +7,23 @@
         <v-col cols="12" sm="12" id="services">
           <v-row class="fill-height">
             <v-col cols="12">
-              <v-tabs v-model="tabs" dark color="white">
+              <v-tabs v-model="tabs" dark color="white" centered center-active>
                 <v-tab v-for="(s, i) in ourServices" :key="s.title" :href="'#tr-tabs-' + (i + 1)">
                   {{ s.title }} </v-tab>
               </v-tabs>
               <v-tabs-items v-model="tabs">
                 <v-tab-item v-for="i in ourServices.length" :key="i" :value="'tr-tabs-' + i">
-                  <v-card outlined height="100" v-if="i == 1" flat>
-                    <h3>{{ ourServices[0].detail }}</h3>
+                  <v-card outlined v-if="i == 1" flat>
+                    <p class="font-weight-light">{{ ourServices[0].detail }}</p>
                   </v-card>
-                  <v-card outlined height="100" v-if="i == 2" flat>
-                    <h3>{{ ourServices[1].detail }}</h3>
+                  <v-card outlined v-if="i == 2" flat>
+                    <p class="font-weight-light">{{ ourServices[1].detail }}</p>
                   </v-card>
-                  <v-card outlined height="100" v-if="i == 3" flat>
-                    <h3>{{ ourServices[2].detail }}</h3>
+                  <v-card outlined v-if="i == 3" flat>
+                    <p class="font-weight-light">{{ ourServices[2].detail }}</p>
                   </v-card>
-                  <v-card outlined height="100" v-if="i == 4" flat>
-                    <h3>{{ ourServices[3].detail }}</h3>
+                  <v-card outlined v-if="i == 4" flat>
+                    <p class="font-weight-light">{{ ourServices[3].detail }}</p>
                   </v-card>
                 </v-tab-item>
               </v-tabs-items>
@@ -368,7 +368,7 @@ export default {
     imageView(index) {
       this.$imageViewer.index(index);
       this.$imageViewer.show();
-      console.log('this.$imageViewer:' + JSON.stringify(this.$imageViewer))
+      // console.log('this.$imageViewer:' + JSON.stringify(this.$imageViewer))
     }
   },
   created() {
@@ -377,7 +377,7 @@ export default {
       if (o && o.url) {
         o.url = this.getImgUrl(o.url)
       }
-      console.log(o)
+      // console.log(o)
     }
 
     this.$imageViewer.images(this.galleryImgs)

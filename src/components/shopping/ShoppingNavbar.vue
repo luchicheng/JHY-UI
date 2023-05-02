@@ -88,7 +88,7 @@ export default {
     ],
     items: [
       {
-        action: 'PortalHome', title: 'HOME', name: 'PortalHome', active: true, enabled: true, login_required: false,
+        action: 'PortalHome', title: 'Home', name: 'PortalHome', active: true, enabled: true, login_required: false,
         items: [
           { title: 'About', name: 'About', enabled: true },
           { title: 'Services', name: 'Services', enabled: true },
