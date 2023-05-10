@@ -13,17 +13,25 @@
               </v-tabs>
               <v-tabs-items v-model="tabs">
                 <v-tab-item v-for="i in ourServices.length" :key="i" :value="'tr-tabs-' + i">
-                  <v-card outlined v-if="i == 1" flat>
-                    <p class="font-weight-light">{{ ourServices[0].detail }}</p>
+                  <v-card outlined v-if="i == 1" flat min-height="200">
+                    <v-card-text>
+                      <p class="font-weight-medium">{{ ourServices[0].detail }}</p>
+                    </v-card-text>                    
                   </v-card>
-                  <v-card outlined v-if="i == 2" flat>
-                    <p class="font-weight-light">{{ ourServices[1].detail }}</p>
+                  <v-card outlined v-if="i == 2" flat min-height="200">
+                  <v-card-text>
+                    <p class="font-weight-medium">{{ ourServices[1].detail }}</p>
+                  </v-card-text>
                   </v-card>
-                  <v-card outlined v-if="i == 3" flat>
-                    <p class="font-weight-light">{{ ourServices[2].detail }}</p>
+                  <v-card outlined v-if="i == 3" flat min-height="200">
+                    <v-card-text>
+                      <p class="font-weight-medium">{{ ourServices[2].detail }}</p>
+                    </v-card-text>                    
                   </v-card>
-                  <v-card outlined v-if="i == 4" flat>
-                    <p class="font-weight-light">{{ ourServices[3].detail }}</p>
+                  <v-card outlined v-if="i == 4" flat min-height="200">
+                    <v-card-text>
+                      <p class="font-weight-medium">{{ ourServices[3].detail }}</p>
+                    </v-card-text>
                   </v-card>
                 </v-tab-item>
               </v-tabs-items>

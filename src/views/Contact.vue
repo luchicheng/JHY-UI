@@ -12,11 +12,12 @@
                   <v-btn class="mt-10" variant="outlined">
                     <v-icon left>fas fa-map-marker-alt</v-icon>
                   </v-btn><br />
-                  <span class="text-caption">55 West Beaver Creek Rd, Richmond Hill, ON L4B 1K5</span><br />
+                  <span class="text-caption">144 Bullock Drive, Markham ON L3P 1W2</span><br />
                   <v-btn class="mt-10" variant="outlined">
                     <v-icon left>fas fa-phone-alt</v-icon>
                   </v-btn><br />
-                  <span class="text-caption">905-597-1666</span> <br />
+                  <span class="text-caption">905-209-3588</span> <br />
+                  <span class="text-caption">905-209-3288</span> <br />
                   <v-btn class="mt-10" variant="outlined">
                     <v-icon left>fas fa-envelope</v-icon>
                   </v-btn><br />
